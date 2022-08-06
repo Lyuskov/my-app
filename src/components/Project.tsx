@@ -1,11 +1,9 @@
 import React  from 'react'
 import {IProject} from '../models'
 
-
 interface ProjectProps {
 	project: IProject
 }
-
 
 export default function Project({ project }: ProjectProps) {
 	return (
